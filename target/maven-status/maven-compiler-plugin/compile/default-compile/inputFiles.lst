@@ -1,0 +1,11 @@
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/Application.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/Book.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/BookController.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/BookService.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/JedisConfig.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/PageController.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/PaginatedResponse.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/SessionService.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/User.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/WelcomeController.java
+/Users/guylubovitch/Documents/work/java/redis-bookapp-with-user/src/main/java/com/example/redisbookapp/repo/RedisBookRepository.java

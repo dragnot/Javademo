@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lightrun Book Inventory</title>
+    <link rel="stylesheet" href="/styles.css"/>
+    <link rel="icon" href="/logo-lightrun.svg"/>
+</head>
+<body>
+<div class="shell">
+    <header class="topbar">
+        <div class="brand">
+            <img src="/logo-lightrun.svg" alt="Lightrun" class="logo"/>
+            <span class="brand-text">ACME Book Inventory</span>
+        </div>
+
+        <div class="top-actions">
+            <!-- Current user display -->
+            <div id="user-info" class="user-info">
+                <span id="user-chip" class="chip" title="Current user"></span>
+            </div>
+
+            <button id="refresh" class="btn">Refresh</button>
+            <button id="logout-btn" class="btn secondary">Logout</button>
+            <span id="status" class="status"></span>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="table-wrapper">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th><th>Name</th><th>Author</th><th>ISBN</th><th>Category</th>
+                    <th>Inventory</th><th>Price</th><th>Save</th>
+                </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+        
+        <div class="pagination-container">
+            <div class="pagination-info">
+                <span id="pagination-info">Showing 0 - 0 of 0 books</span>
+            </div>
+            <div class="pagination-controls">
+                <button id="prev-page" class="pagination-btn" disabled>Previous</button>
+                <span id="page-numbers" class="page-numbers"></span>
+                <button id="next-page" class="pagination-btn" disabled>Next</button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

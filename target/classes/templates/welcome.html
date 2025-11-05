@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome - Lightrun Book Inventory</title>
+    <link rel="stylesheet" href="/styles.css"/>
+    <link rel="icon" href="/logo-lightrun.svg"/>
+    <style>
+        .welcome-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .welcome-card {
+            background: var(--panel);
+            border: 1px solid var(--stroke);
+            border-radius: 24px;
+            padding: 48px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,.4);
+        }
+        .welcome-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .welcome-logo {
+            width: 48px;
+            height: 48px;
+        }
+        .welcome-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text);
+            margin: 0;
+        }
+        .welcome-subtitle {
+            font-size: 16px;
+            color: var(--muted);
+            margin-bottom: 32px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        .form-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--stroke);
+            border-radius: 12px;
+            background: #0c1330;
+            color: var(--text);
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .form-input.required {
+            border-left: 3px solid var(--accent);
+        }
+        .welcome-btn {
+            width: 100%;
+            padding: 16px;
+            margin-top: 16px;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .welcome-btn:hover {
+            transform: translateY(-1px);
+        }
+        .welcome-btn:disabled {
+            background: #223067;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .status-message {
+            margin-top: 16px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .status-error {
+            background: rgba(255, 99, 99, 0.1);
+            border: 1px solid rgba(255, 99, 99, 0.3);
+            color: #ff6363;
+        }
+        .status-success {
+            background: rgba(51, 187, 255, 0.1);
+            border: 1px solid rgba(51, 187, 255, 0.3);
+            color: var(--accent-2);
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-card">
+            <div class="welcome-header">
+                <img src="/logo-lightrun.svg" alt="Lightrun" class="welcome-logo"/>
+                <h1 class="welcome-title">Welcome</h1>
+            </div>
+            <p class="welcome-subtitle">Please enter your information to access the Book Inventory System</p>
+            
+            <form id="welcome-form">
+                <div class="form-group">
+                    <label for="username" class="form-label">Username *</label>
+                    <input type="text" id="username" name="username" class="form-input required" placeholder="Enter your username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" id="firstName" name="firstName" class="form-input" placeholder="Enter your first name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Enter your last name">
+                </div>
+                
+                <button type="submit" id="login-btn" class="welcome-btn">
+                    Enter Book Inventory
+                </button>
+                
+                <div id="status" class="status-message" style="display: none;"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/welcome.js"></script>
+</body>
+</html>
+
+
+
