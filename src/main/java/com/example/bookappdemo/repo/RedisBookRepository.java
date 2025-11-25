@@ -1,6 +1,6 @@
-package com.example.redisbookapp.repo;
+package com.example.bookappdemo.repo;
 
-import com.example.redisbookapp.Book;
+import com.example.bookappdemo.Book;
 import org.springframework.stereotype.Repository;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

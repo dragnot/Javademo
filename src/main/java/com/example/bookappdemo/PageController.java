@@ -1,4 +1,4 @@
-package com.example.redisbookapp;
+package com.example.bookappdemo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;

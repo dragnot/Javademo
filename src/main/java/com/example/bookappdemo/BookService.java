@@ -1,6 +1,6 @@
-package com.example.redisbookapp;
+package com.example.bookappdemo;
 
-import com.example.redisbookapp.repo.RedisBookRepository;
+import com.example.bookappdemo.repo.RedisBookRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;

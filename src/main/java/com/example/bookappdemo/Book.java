@@ -1,4 +1,4 @@
-package com.example.redisbookapp;
+package com.example.bookappdemo;
 
 public class Book {
     private String id;

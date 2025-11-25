@@ -1,4 +1,4 @@
-# Redis Book Inventory Application
+# Book App Demo - Book Inventory Application
 
 A Spring Boot web application for managing a book inventory using Redis as the data store. This application demonstrates user authentication, session management, and CRUD operations on book data.
 
@@ -65,7 +65,7 @@ mvn spring-boot:run
 Or run the JAR directly:
 
 ```bash
-java -jar target/redis-bookapp-0.0.1-SNAPSHOT.jar
+java -jar target/bookapp-demo-0.0.1-SNAPSHOT.jar
 ```
 
 The application will start on `http://localhost:8080`
@@ -111,7 +111,7 @@ All update operations require authentication (session cookie).
 ```
 src/
 ├── main/
-│   ├── java/com/example/redisbookapp/
+│   ├── java/com/example/bookappdemo/
 │   │   ├── Application.java              # Main Spring Boot application
 │   │   ├── Book.java                     # Book entity model
 │   │   ├── BookController.java           # REST API controller

@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>redis-bookapp</artifactId>
+    <artifactId>bookapp-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>redis-bookapp</name>
+    <name>bookapp-demo</name>
     <description>Book Inventory Web App (Spring Boot + Jedis)</description>
 
     <properties>

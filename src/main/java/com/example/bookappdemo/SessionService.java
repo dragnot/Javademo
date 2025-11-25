@@ -1,4 +1,4 @@
-package com.example.redisbookapp;
+package com.example.bookappdemo;
 
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
