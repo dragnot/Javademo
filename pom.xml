@@ -13,7 +13,7 @@
     <properties>
         <!-- Compile for Java 21, run on newer JDKs like 24 -->
         <java.version>21</java.version>
-        <spring-boot.version>3.3.4</spring-boot.version>
+        <spring-boot.version>3.5.5</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
